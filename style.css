@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+    text-align:center;
+    color:white;
+    padding:40px 20px;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:22px;
+    margin-bottom:40px;
+}
+
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    color:#333;
+    text-decoration:none;
+    border-radius:20px;
+    padding:30px;
+    transition:.25s;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.05);
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+footer{
+    margin-top:50px;
+    font-size:18px;
+}
