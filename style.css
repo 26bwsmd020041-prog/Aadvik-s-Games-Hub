@@ -6,7 +6,7 @@
 
 body{
     font-family:Arial,sans-serif;
-    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    background:#070f1e; /* solid background as requested */
     min-height:100vh;
     text-align:center;
     color:white;
