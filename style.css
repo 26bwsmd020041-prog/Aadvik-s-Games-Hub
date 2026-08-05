@@ -13,6 +13,37 @@ body{
     padding:40px 20px;
 }
 
+/* header / logo */
+.site-title{
+    /* control the visible area (cropping) */
+    height:110px;
+    margin-bottom:10px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.site-title img{
+    /* object-fit:cover crops and fills the box while preserving aspect ratio */
+    width:260px;
+    height:110px;
+    object-fit:cover;
+    display:block;
+    border-radius:14px; /* optional rounded corners */
+}
+
+/* smaller screens */
+@media (max-width:480px){
+    .site-title{
+        height:88px;
+    }
+    .site-title img{
+        width:200px;
+        height:88px;
+    }
+}
+
 h1{
     font-size:50px;
     margin-bottom:10px;
